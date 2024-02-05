@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@keyframes colorChange {
+  0% { color: #FF0000; } /* Start color: Red */
+  50% { color: #FF4500; } /* Middle color: OrangeRed */
+  100% { color: #FF0000; } /* End color: Red */
+}
+
+.animate-color-change {
+  animation: colorChange 1s infinite;
+}
