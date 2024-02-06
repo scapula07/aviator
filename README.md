@@ -1,3 +1,12 @@
+# Aviator is a betting game .User deposit a wager to a smart contract deployed to lightchain. API3 contract is called to return a random number that is used to calculate the time of flight of a plane. Reward is calculated with odds associated with flight.Provided the user stops the game before the plane flews ,the reward is incremented on user balance in the smart contract. The reward can be withdrawn.But if a user fails to stop game before flight is completed,he loses his wager.
+
+
+
+
+
+# Aviator contract
+
+
 ```sol  Aviator contract
     // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -53,7 +62,7 @@ contract Autobet{
 ```
 
 
-
+# Api3 QRNG contract
 ```sol API3 QRNG
    //SPDX-License-Identifier: MIT
 pragma solidity 0.8.9;
