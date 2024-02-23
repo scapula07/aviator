@@ -8,6 +8,8 @@ Best of luck!!!. May the odds be in your favor.
 
 # Aviator contract
 
+## Contract https://pegasus.lightlink.io/address/0x51246c9F480Cc6A46397b2A35684BC3231Acf41F
+
 
 ```sol  Aviator contract
     // SPDX-License-Identifier: MIT
